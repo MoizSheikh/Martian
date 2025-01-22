@@ -1,0 +1,204 @@
+.event{
+    color: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    .lower-navbar{
+        background-color: rgba(46, 46, 46, 0.493);
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem 0;
+    }
+    .mainHeading-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .Eventpage-mainHeading{
+            font-family: 'Outfit', sans-serif;
+            color: black;
+            font-size: 60px;
+            margin-top: -2.3%;
+            font-weight: bolder;
+            text-shadow: 2px 2px red;
+            font-style: italic;
+            margin-bottom: 0;
+        }
+    }
+    .page-maindiv{
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 2rem;
+        .page-detail{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 2rem;
+            font-size: 22px;
+        }
+        .event-img{
+            width: 320px;
+            height: 220px;
+            object-fit: cover;
+        }
+        .event-div{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 2rem;
+            .Find-div, .calender-div, .More-div{
+                color: rgb(255, 193, 227);
+                text-shadow: 3px 3px rgb(252, 9, 122);
+                font-weight: bold;
+                font-size: 45px;
+                font-family: 'Big Shoulders Display', cursive;
+            }
+            .calender-div{
+                color: rgb(180, 250, 255);
+                text-shadow: 3px 3px rgb(3, 157, 218);
+            }
+            .More-div{
+                color: rgb(255, 235, 146);
+                text-shadow: 3px 3px rgb(218, 150, 3);
+            }
+            .event-innerdiv{
+                margin: 0 2rem;
+                margin-top: -0.5rem;
+                div{
+                    margin: 1.5rem 0;
+                    color: white;
+                    font-family: 'Mukta', sans-serif;
+                    font-weight: normal;
+                    text-shadow: none;
+                    font-size: 22px;
+                }
+                .Buttons-btn{
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 22px;
+                    color: rgb(1, 1, 78);
+                    text-shadow: none;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    .btn-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .btn1, .btn2, .btn3, .btn4{
+            .Buttons-btn{
+                font-family: 'Big Shoulders Display', cursive;
+                font-size: 35px;
+                color: rgb(1, 1, 78);
+                text-shadow: none;
+                font-weight: bolder;
+                padding: 0;
+                padding: 0.3rem 2.7rem;
+                margin-bottom: 10%;
+            }
+        }
+        .btn1{
+            .Buttons-btn{
+                background-image: linear-gradient(rgb(252, 183, 35), rgb(233, 135, 6), rgb(252, 183, 35));
+                color: rgb(255, 235, 146);
+                text-shadow: 4px 4px rgb(218, 150, 3);
+            }
+        }
+        .btn2{
+            .Buttons-btn{
+                background-image: linear-gradient(rgb(158, 158, 255), rgb(2, 2, 158), rgb(9, 9, 221));
+                color: rgb(180, 250, 255);
+                text-shadow: 3px 3px rgb(3, 157, 218);
+            }
+        }
+        .btn3{
+            .Buttons-btn{
+                background-image: linear-gradient(rgb(173, 255, 173), rgb(2, 158, 2), rgb(5, 192, 5));
+                color: rgb(255, 151, 125);
+                text-shadow: 3px 3px rgb(241, 6, 18);
+            }
+        }
+        .btn4{
+            .Buttons-btn{
+                background-image: linear-gradient(rgb(235, 230, 230), rgb(192, 190, 190), rgb(235, 230, 230));
+                color: rgb(255, 235, 146);
+                text-shadow: 4px 4px rgb(218, 150, 3);
+            }
+        }
+    }
+    @media (max-width: 750px){
+        .page-maindiv{
+            .event-img{
+                width: 250px;
+                height: 220px;
+            }
+            .page-detail{
+                font-size: 19px;
+            }
+            .event-div{
+                .Find-div, .calender-div, .More-div{
+                    font-size: 35px;
+                }
+                .event-innerdiv{
+                    div{
+                        margin: 1rem 0;
+                    }
+                }
+            }
+        }
+        .mainHeading-div{
+            .Eventpage-mainHeading{
+                font-size: 50px;
+            }
+        }
+    }
+    @media (max-width: 750px){
+        .page-maindiv{
+            .event-div{
+                flex-wrap: wrap;
+                .event-innerdiv{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    @media (max-width: 520px){
+        .page-maindiv{
+            .page-detail{
+                font-size: 17px;
+            }
+        }
+        .mainHeading-div{
+            .Eventpage-mainHeading{
+                font-size: 40px;
+            }
+        }
+    }
+    @media (max-width: 410px){
+        .page-maindiv{
+            .event-img{
+                width: 200px;
+                height: 180px;
+            }
+            .page-detail{
+                font-size: 20px;
+            }
+            .event-div{
+                .Find-div, .calender-div, .More-div{
+                    font-size: 35px;
+                }
+                .event-innerdiv{
+                    div{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .mainHeading-div{
+            .Eventpage-mainHeading{
+                font-size: 32px;
+            }
+        }
+    }
+}

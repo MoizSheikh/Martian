@@ -1,0 +1,211 @@
+.build{
+    color: white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     min-height: 100%;
+//   min-width: 1024px;
+	
+//   /* Set up proportionate scaling */
+//   width: 100%;
+//   height: auto;
+    .build-mainDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .page-mainHeading{
+            background-color: rgba(255, 255, 255, 0.336);
+            color: black;
+            padding: 0;
+            margin: 0;
+            padding: 0 3rem;
+            word-spacing: 1rem;
+            font-family: 'Outfit', sans-serif;
+            font-size: 60px;
+            font-weight: bolder;
+            text-shadow: 2px 2px red;
+            font-style: italic;
+        }
+        .page-mainHeading-details{
+            margin-top: 0.5%;
+            font-size: 22px;
+        }
+    }
+    .con{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: rgba(37, 37, 37, 0.5);
+        padding: 1rem;
+        margin: 1.5rem 0;
+        .con-detail{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 0 2rem;
+            div{
+                padding: 1rem;
+            }
+            .con-heading{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 32px;
+                font-weight: bold;
+                margin-top: -11%;
+            }
+            .con-btn{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+            .Buttons-btn{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 30px;
+                color: rgb(1, 1, 78);
+                text-shadow: none;
+                font-weight: bolder;
+                padding: 0;
+                padding: 0.3rem 2.7rem;
+                margin: 1rem;
+                margin-bottom: -17%;
+            }
+        }
+        .build-img{
+            height: 200px;
+            width: 350px;
+            object-fit: cover;
+        }
+    }
+    .con3-detail{
+        margin-top: 3%;
+        .con-btn{
+            .Buttons-btn{
+                margin-bottom: -10%;
+            }
+        }
+    }
+    .search-field{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 1rem;
+        .search-field1{
+            margin-bottom: 8px;
+        }
+        .build-search{
+            border: none;
+            height: 1.5rem;
+            width: 18rem;
+        }
+    }
+    .lower-navbar{
+        background-color: rgb(14, 14, 14);
+        width: 100%;
+        margin-left: 0;
+    }
+    @media(max-width: 935px){
+        .con{
+            .con-detail{
+                .con-heading{
+                    font-size: 25px;
+                }
+            }
+            .build-img{
+                width: 300px;
+            }
+        }
+    }
+    @media(max-width: 780px){
+        .build-mainDiv{
+            .page-mainHeading{
+                font-size: 50px;
+            }
+        }
+        .con{
+            .con-detail{
+                .con-heading{
+                    font-size: 18px;
+                }
+                .Buttons-btn{
+                    font-size: 25px;
+                    margin-bottom: -13%;
+                }
+            }
+            .build-img{
+                width: 250px;
+            }
+        }
+    }
+    @media(max-width: 620px){
+        .build-mainDiv{
+            .page-mainHeading{
+                font-size: 40px;
+            }
+            .page-mainHeading-details{
+                font-size: 19px;
+            }
+        }
+        .con{
+            .con-detail{
+                .con-heading{
+                    font-size: 18px;
+                }
+                .Buttons-btn{
+                    font-size: 25px;
+                    margin-bottom: -13%;
+                }
+            }
+            .build-img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+    @media(max-width: 580px){
+        .build-mainDiv{
+            .page-mainHeading{
+                font-size: 30px;
+                padding: 0 2rem;
+            }
+            .page-mainHeading-details{
+                font-size: 17px;
+            }
+        }
+        .con{
+            .con-detail{
+                padding: 0;
+                .con-heading{
+                    font-size: 15px;
+                    margin-top: 0;
+                }
+                div{
+                    padding: 0.5rem;
+                }
+                .Buttons-btn{
+                    font-size: 16px;
+                    margin-bottom: -10%;
+                    padding: 0.3rem 2rem;
+                }
+            }
+            .build-img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .search-field{
+            font-size: 18px;
+            .build-search{
+                width: 15rem;
+            }
+        }
+    }
+}
