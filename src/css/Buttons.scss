@@ -1,23 +1,23 @@
-.Buttons-btn{
-    font-family: 'Iceberg', cursive;
-    padding: 1rem 1.5rem;
-    border: none;
-    background-color: rgb(140, 224, 13);
-    color: white;
-    text-shadow: 2px 2px red;
-    font-weight: bold;
-    border-radius: 50px;
-    cursor: pointer;
+.Buttons-btn {
+  font-family: "Iceberg", cursive;
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: rgb(140, 224, 13);
+  color: white;
+  text-shadow: 2px 2px red;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
 }
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
 }
-@media (max-width: 850px){
-    .Buttons-btn{
-        padding: 0.5rem 1rem;
-    }
+@media (max-width: 850px) {
+  .Buttons-btn {
+    padding: 0.5rem 1rem;
+  }
 }
-@media (max-width: 650px){
-    .Buttons-btn{
-        padding: 0 0.5rem;
-    }
+@media (max-width: 650px) {
+  .Buttons-btn {
+    padding: 0 0.5rem;
+  }
 }

@@ -1,295 +1,298 @@
-.shop{
-    font-family: 'Orbitron', sans-serif;
-    background-color: black;
-    .lower-navbar{
-        color: white;
+.shop {
+  font-family: "Orbitron", sans-serif;
+  background-color: black;
+  .lower-navbar {
+    color: white;
+  }
+  .shop-image1 {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  .shop-img-bag {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+  }
+  .mainHeading-div {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    top: 8%;
+    .page-mainHeading {
+      font-family: "Outfit", sans-serif;
+      color: black;
+      font-size: 60px;
+      font-weight: bolder;
+      text-shadow: 2px 2px red;
+      margin-bottom: 0;
+      font-style: italic;
     }
-    .shop-image1{
-        width: 100%;
-        position: absolute;
-        z-index: 2;
+    .detail {
+      font-size: 25px;
     }
-    .shop-img-bag{
-        width: 100%;
-        height: 55vh;
-        object-fit: cover;
+    .search-field {
+      margin-top: 2%;
+      font-size: 20px;
+      font-weight: lighter;
     }
-    .mainHeading-div{
-        font-family: 'Outfit', sans-serif; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        color: white;
-        position: absolute;
-        text-align: center;
-        z-index: 4;
-        top: 8%;
-        .page-mainHeading{
-            font-family: 'Outfit', sans-serif;
-            color: black;
-            font-size: 60px;
-            font-weight: bolder;
-            text-shadow: 2px 2px red;
-            margin-bottom: 0;
-            font-style: italic;
-        }
-        .detail{
-            font-size: 25px;
-        }
-        .search-field{
-            margin-top: 2%;
-            font-size: 20px;
-            font-weight: lighter;
-        }
-        .shop-search{
-            background-color: white;
-            border:   none;
-            height: 20px;
-        }
-        .shop-search:focus{
-            outline: none;
-        }
+    .shop-search {
+      background-color: white;
+      border: none;
+      height: 20px;
     }
-    .UpperImages{
-        position: absolute;
-        z-index: 3;
-        top: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        .shop-image12{
-            width: 25%;
-        }
-        .shop-image13{
-            width: 18%;
-        }
+    .shop-search:focus {
+      outline: none;
     }
-    .options{
-        font-family: 'Iceberg', cursive;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 63%;
-        z-index: 3;
-        .option{
-            display: flex;
-            cursor: pointer;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: rgb(1, 1, 41);
-            font-weight: bolder;
-            font-size: 25px;
-            background: rgba(255, 255, 255, 0.5);
-            margin: 2.15rem 1rem;
-            padding: 0.3rem 1.5rem;
-        }
-        .option:hover{
-            box-shadow: 3px 3px rgba(27, 27, 27, 0.8);
-        }
-        .shop-img{
-            height: 160px;
-            width: 200px;
-        }
+  }
+  .UpperImages {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .shop-image12 {
+      width: 25%;
     }
-    .products-div{
-        position: relative;
-        .shop-image2{
-            margin-top: 18%;
-        }
+    .shop-image13 {
+      width: 18%;
     }
-    .Buy-sale{
-        position: relative;
-        font-family: 'Outfit', sans-serif;
+  }
+  .options {
+    font-family: "Iceberg", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 63%;
+    z-index: 3;
+    .option {
+      display: flex;
+      cursor: pointer;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgb(1, 1, 41);
+      font-weight: bolder;
+      font-size: 25px;
+      background: rgba(255, 255, 255, 0.5);
+      margin: 2.15rem 1rem;
+      padding: 0.3rem 1.5rem;
     }
-    .assets-con{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        align-items: center;
-        top: 7%;
-        justify-content: space-between;
-        width: 97%;
-        .assets{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: rgba(255, 255, 255, 0.5);
-            width: 20%;
-            margin: 1rem;
-            padding: 1.5rem 0;
-            .shop-img{
-                height: 250px;
-                margin-top: -25%;
-                width: 210px;
-            }
-        }
-        .assets1{
-            text-align: center;
-        }
-        .assets-btn, .assets1-btn{
-            font-size: 30px;
-            margin-bottom: -17%;
-            padding: 0.5rem 1rem;
-        }
-        .assets1-btn{
-            padding: 0.5rem 4rem;
-            margin: 4%;
-        }
-        .AssetHeading1{
-            background: rgb(0,0,0,0.4);
-            font-size: 52px;
-            font-weight: bold;
-            word-spacing: 12px;
-            color: white;
-            text-shadow: 3px 2px rgb(245, 16, 16);
-            padding: 0.7rem;
-            margin-bottom: 3%;
-        }
-        .AssetHeading2{
-            color: black;
-            font-weight: bold;
-            font-size: 22px;
-            background: rgba(253, 71, 71, 0.7);
-            padding: 0.3rem;
-        }
+    .option:hover {
+      box-shadow: 3px 3px rgba(27, 27, 27, 0.8);
     }
-    @media (max-width: 1200px){
-        .mainHeading-div{
-            .page-mainHeading{
-                font-size: 50px;
-            }
-            .detail{
-                font-size: 20px;
-            }
-        }
-        .options{
-            top: 47%;
-            .option{
-                font-size: 25px;
-                margin: 1.7rem 0.5rem;
-                padding: 0.3rem 0.7rem;
-            }
-            .shop-img{
-                height: 130px;
-                width: 170px;
-            }
-        }
+    .shop-img {
+      height: 160px;
+      width: 200px;
     }
-    @media (max-width: 850px){
-        .shop-img-bag{
-            height: 47vh;
-        }
-        .mainHeading-div{
-            top: 5%;
-            .page-mainHeading{
-                font-size: 40px;
-            }
-            .detail{
-                font-size: 15px;
-            }
-            .search-field{
-                font-size: 15px;
-            }
-        }
-        .options{
-            top: 35%;
-            .option{
-                font-size: 25px;
-                margin: 1.4rem 0.1rem;
-                padding: 0.3rem 0.1rem;
-            }
-            .shop-img{
-                height: 100px;
-                width: 140px;
-            }
-        }
-        .assets-con{
-            .assets{
-                padding: 1.3rem 2.2rem;
-                .shop-img{
-                    margin-top: -35%;
-                }
-            }
-            .assets-btn, .assets1-btn{
-                font-size: 25px;
-                margin-bottom: -22%;
-            }
-            .assets1-btn{
-                padding: 0.5rem 3rem;
-            }
-            .AssetHeading1{
-                font-size: 45px;
-            }
-        }
+  }
+  .products-div {
+    position: relative;
+    .shop-image2 {
+      margin-top: 18%;
     }
-    @media(max-width: 650px){
-        .UpperImages{
-            top: 12%;
-        }
-        .shop-img-bag{
-            height: 40vh;
-        }
-        .mainHeading-div{
-            top: 3%;
-            .page-mainHeading{
-                font-size: 30px;
-            }
-            .detail{
-                font-size: 12px;
-            }
-            .search-field{
-                font-size: 10px;
-            }
-        }
-        .options{
-            top: 30%;
-            .option{
-                font-size: 22px;
-                margin: 1.2rem 0.1rem;
-                padding: 0.3rem 0.1rem;
-            }
-            .shop-img{
-                height: 70px;
-                width: 110px;
-            }
-        }
-        .assets-con{
-            .assets{
-                padding: 1.3rem 2.2rem;
-                .shop-img{
-                    height: 190px;
-                    width: 150px;
-                    margin-top: -70%;
-                }
-            }
-            .assets-btn, .assets1-btn{
-                font-size: 20px;
-                margin-bottom: -50%;
-            }
-            .assets1-btn{
-                padding: 0 2rem;
-            }
-            .AssetHeading1{
-                font-size: 30px;
-            }
-            .AssetHeading2{
-                font-size: 19px;
-            }
-        }
+  }
+  .Buy-sale {
+    position: relative;
+    font-family: "Outfit", sans-serif;
+  }
+  .assets-con {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    top: 7%;
+    justify-content: space-between;
+    width: 97%;
+    .assets {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.5);
+      width: 20%;
+      margin: 1rem;
+      padding: 1.5rem 0;
+      .shop-img {
+        height: 250px;
+        margin-top: -25%;
+        width: 210px;
+      }
     }
-    @media(max-width: 359px){
-        .shop-img-bag{
-            height: 55vh;
-        }
-        .options{
-            top: 25%;
-        }
+    .assets1 {
+      text-align: center;
     }
+    .assets-btn,
+    .assets1-btn {
+      font-size: 30px;
+      margin-bottom: -17%;
+      padding: 0.5rem 1rem;
+    }
+    .assets1-btn {
+      padding: 0.5rem 4rem;
+      margin: 4%;
+    }
+    .AssetHeading1 {
+      background: rgb(0, 0, 0, 0.4);
+      font-size: 52px;
+      font-weight: bold;
+      word-spacing: 12px;
+      color: white;
+      text-shadow: 3px 2px rgb(245, 16, 16);
+      padding: 0.7rem;
+      margin-bottom: 3%;
+    }
+    .AssetHeading2 {
+      color: black;
+      font-weight: bold;
+      font-size: 22px;
+      background: rgba(253, 71, 71, 0.7);
+      padding: 0.3rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    .mainHeading-div {
+      .page-mainHeading {
+        font-size: 50px;
+      }
+      .detail {
+        font-size: 20px;
+      }
+    }
+    .options {
+      top: 47%;
+      .option {
+        font-size: 25px;
+        margin: 1.7rem 0.5rem;
+        padding: 0.3rem 0.7rem;
+      }
+      .shop-img {
+        height: 130px;
+        width: 170px;
+      }
+    }
+  }
+  @media (max-width: 850px) {
+    .shop-img-bag {
+      height: 47vh;
+    }
+    .mainHeading-div {
+      top: 5%;
+      .page-mainHeading {
+        font-size: 40px;
+      }
+      .detail {
+        font-size: 15px;
+      }
+      .search-field {
+        font-size: 15px;
+      }
+    }
+    .options {
+      top: 35%;
+      .option {
+        font-size: 25px;
+        margin: 1.4rem 0.1rem;
+        padding: 0.3rem 0.1rem;
+      }
+      .shop-img {
+        height: 100px;
+        width: 140px;
+      }
+    }
+    .assets-con {
+      .assets {
+        padding: 1.3rem 2.2rem;
+        .shop-img {
+          margin-top: -35%;
+        }
+      }
+      .assets-btn,
+      .assets1-btn {
+        font-size: 25px;
+        margin-bottom: -22%;
+      }
+      .assets1-btn {
+        padding: 0.5rem 3rem;
+      }
+      .AssetHeading1 {
+        font-size: 45px;
+      }
+    }
+  }
+  @media (max-width: 650px) {
+    .UpperImages {
+      top: 12%;
+    }
+    .shop-img-bag {
+      height: 40vh;
+    }
+    .mainHeading-div {
+      top: 3%;
+      .page-mainHeading {
+        font-size: 30px;
+      }
+      .detail {
+        font-size: 12px;
+      }
+      .search-field {
+        font-size: 10px;
+      }
+    }
+    .options {
+      top: 30%;
+      .option {
+        font-size: 22px;
+        margin: 1.2rem 0.1rem;
+        padding: 0.3rem 0.1rem;
+      }
+      .shop-img {
+        height: 70px;
+        width: 110px;
+      }
+    }
+    .assets-con {
+      .assets {
+        padding: 1.3rem 2.2rem;
+        .shop-img {
+          height: 190px;
+          width: 150px;
+          margin-top: -70%;
+        }
+      }
+      .assets-btn,
+      .assets1-btn {
+        font-size: 20px;
+        margin-bottom: -50%;
+      }
+      .assets1-btn {
+        padding: 0 2rem;
+      }
+      .AssetHeading1 {
+        font-size: 30px;
+      }
+      .AssetHeading2 {
+        font-size: 19px;
+      }
+    }
+  }
+  @media (max-width: 359px) {
+    .shop-img-bag {
+      height: 55vh;
+    }
+    .options {
+      top: 25%;
+    }
+  }
 }
